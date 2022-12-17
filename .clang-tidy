@@ -1,0 +1,15 @@
+Checks: "\
+         bugprone-*,\
+         cert-*,\
+         clang-analyzer-*,\
+         concurrency-*,\
+         cppcoreguidelines-*,\
+         google-*,\
+         misc-*,\
+         performance-*,\
+         portability-*,\
+         readability-*\
+         "
+WarningsAsErrors: ''
+FormatStyle: google
+
