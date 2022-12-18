@@ -2,3 +2,5 @@ project('neuralnet-cpp', 'cpp', default_options:['warning_level=3', 'cpp_std=c++
 
 inc = include_directories('include')
 
+subdir('test')
+
