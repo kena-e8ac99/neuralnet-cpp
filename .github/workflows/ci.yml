@@ -37,6 +37,9 @@ jobs:
           action: test
           setup-options: -Db_coverage=true
           options: --verbose
+          meson-version: 1.0.0
+          ninja-version: 1.11.1
+          gcovr-version: 5.2
 
       - run: |
           sudo apt install lcov
